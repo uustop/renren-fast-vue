@@ -2,8 +2,8 @@
   <header class="site-topbar">
     <div class="site-topbar__header">
       <h1 class="site-logo" @click="$router.push({ name: 'home' })">
-        <a class="site-logo__lg" href="javascript:;">人人快速开发平台</a>
-        <a class="site-logo__mini" href="javascript:;">人人</a>
+        <a class="site-logo__lg" href="javascript:;">Thplus后台管理系统</a>
+        <a class="site-logo__mini" href="javascript:;">挺汇</a>
       </h1>
     </div>
     <div class="site-topbar__body clearfix">
@@ -20,7 +20,7 @@
         <el-menu-item class="site-topbar__avatar" index="1-2">
           <el-dropdown placement="bottom" :hide-on-click="false">
             <span class="el-dropdown-link">
-              <img src="~@/assets/img/avatar.png" :alt="$store.state.user.name">
+              <img src="https://thplus-1255877011.cos.ap-shanghai.myqcloud.com/thplus/20180308/avatar.jpg" :alt="$store.state.user.name">
               {{ $store.state.user.name }}
             </span>
             <el-dropdown-menu slot="dropdown">
